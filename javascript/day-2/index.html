@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>Dynamic Grid Generator</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputs">
+            <span class="title" style="grid-area: title1;">Enter The No. Of Rows</span>
+            <input type="text" id="rows" style="grid-area: rows;">
+            <br>
+            <span class="title" style="grid-area: title2;">Enter The No. Of Columns</span>
+            <input type="text" id="columns" style="grid-area: columns;">
+            <input type="submit" onclick="makeGrid()" id="button" value="Create Grid" style="grid-area: button;">
+        </div>
+
+        <div id="layout">
+        </div>
+    </div>
+</body>
+
+</html>

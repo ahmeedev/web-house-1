@@ -1,0 +1,22 @@
+$color:blue;
+$btn-color:green;
+.container {
+    padding-top: 10px;
+    .my-modal {
+        // position: fixed; // flex: 1;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $color;
+    }
+}
+
+button {
+    width: 100%;
+    // height: 40px;
+    color: white;
+    border: 2px dotted red;
+    background-color: $btn-color;
+}

@@ -1,0 +1,17 @@
+.container {
+  padding-top: 10px; }
+  .container .my-modal {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue; }
+
+button {
+  width: 100%;
+  color: white;
+  border: 2px dotted red;
+  background-color: green; }
+
+/*# sourceMappingURL=style.css.map */
